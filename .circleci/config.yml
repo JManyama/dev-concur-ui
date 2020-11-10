@@ -58,7 +58,7 @@ jobs:
           command: gh-pages --dotfiles --message "[skip ci] Updates" --dist ./_site
       - add_ssh_keys:
           fingerprints:
-            - 2d:8e:36:81:5c:cc:30:49:bb:49:9e:b2:70:24:d1:13
+            - e1:59:e9:81:9b:4f:b7:3f:b2:4d:97:16:29:f2:20:b2
 workflows:         
   version: 2
   test-deploy:
