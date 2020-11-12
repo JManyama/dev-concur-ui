@@ -2,7 +2,7 @@
   url: /api-explorer/
 - title: v3.0
   url: ''
-  children:
+  children: 
       - title: Allocations
         url: /api-explorer/v3-0/Allocations.html
       - title: Attendee Types
