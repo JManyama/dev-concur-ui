@@ -26,9 +26,9 @@ jobs:
       - run:
           name: Jekyll build
           command: bundle exec jekyll build
-      #- run:
+      - run:
        #   name: HTMLProofer tests
-        #  command: |
+          #command: |
          #   bundle exec htmlproofer ./_site \
           #    --allow-hash-href \
            #   --check-html \
